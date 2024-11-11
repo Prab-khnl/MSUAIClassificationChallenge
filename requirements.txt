@@ -1,0 +1,11 @@
+
+Using GUI :-
+I have created a GUI for testing the Model in which you can drag and drop the image
+into the GUI. The GUI will output the predicted classification of the image which is obtained
+from the train/best_model.pth.
+ To run the GUI :- python3 ModelGUI.py
+
+Non GUI :- 
+The other way to test this model is upload all the images inside the test model. The code 
+will loop over the images and will output the result inside the 'ModelPredictionResult.csv'
+To run the code :- python3 ModelTestnonGUI.py 
